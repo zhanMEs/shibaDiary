@@ -1,0 +1,36 @@
+.labu-logo {
+  max-width: 8vh;
+}
+
+.labu-btn {
+  border-radius: 10px;
+  background-color: #cde6f9;
+}
+
+.labu-btn:hover {
+  background-color: #e38119;
+  color: #cde6f9;
+}
+
+.labu-img {
+  max-width: 100vh;
+}
+
+.v-line {
+  border-left: thick solid #000;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+}
+
+.x-line {
+  border-bottom: thick solid #000;
+  min-width: 5vh;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 15%;
+}
+
+.labu-clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
